@@ -1,0 +1,35 @@
+/*Login Page Custom Styling*/
+.checkbox label::before{
+            display: none !important;
+        }
+        .banner-text{
+            animation: bounceInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
+        }
+        .login-window{
+            animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
+        }
+       .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus{
+           outline: none !important;
+       }
+        @media(max-width:767px){
+            .l-form{
+                 background-image: url("images/login.jpg");
+                background-size:cover;
+                height:420px;
+            }
+            .l-form label{
+                color:#fff;
+            }
+            .login-wraper .forgottext a{
+                color: #fff;
+            }
+            .btn-cv1:active{
+    outline: none;
+}
+.btn-cv1:focus{
+    outline: none;
+    outline-offset: -30px !important;
+        }
+        }

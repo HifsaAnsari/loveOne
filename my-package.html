@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.png">
+
+    <title>Circle Video | Home Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font-circle-video.css" rel="stylesheet">
+
+    <!-- font-family: 'Hind', sans-serif; -->
+    <link href='https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700|Hind+Guntur:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css">
+    <link rel="stylesheet" href="custom/vendor/%40fortawesome/fontawesome-free/css/all.min.css">
+      <link rel="stylesheet" href="custom/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css">
+      <link rel="stylesheet" href="custom/vendor/remixicon/fonts/remixicon.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/font-awesome-line-awesome/css/all.min.css">
+
+<style>
+
+.price{
+  animation: fadeInDown;
+  animation-duration: 2s;
+}
+.bg-image{
+     background-image: url("images/login.jpg");
+                background-size:cover;
+               
+}
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.columns {
+  float: left;
+  width: 25.3%;
+  padding: 8px;
+  margin-top: 10%;
+  margin-left: 100px;
+}
+a:hover{
+  color: #fff;
+}
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-top: -100px;
+}
+
+.price:hover {
+  box-shadow: 4px 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #ea2c5a;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+  .columns{
+    margin-left: auto;
+  }
+  .price{
+    margin-top: 0px;
+  }
+}
+</style>
+</head>
+<body class="light">
+<!-- logo, menu, search, avatar -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="btn-color-toggle">
+            <img src="images/icon_bulb_light.png" alt="">
+        </div>
+        <div class="navbar-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-3 visible-xs">
+                        <a href="#" class="btn-menu-toggle"><i class="cv cvicon-cv-menu"></i></a>
+                    </div>
+                    <div class="col-lg-1 col-sm-2 col-xs-6">
+                        <a class="navbar-brand" href="pricing.html">
+                            <img src="images/logo.svg" alt="Project name" class="logo" />
+                            <span>Logo</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-10 hidden-xs">
+                        <ul class="list-inline menu">
+                            <li class="color-active">
+                                
+                                <ul style="display: none;">
+                                    <li><a href="pricing.html">Home Page</a></li>
+                                    <li><a href="single-video.html">Single Video Page</a></li>
+                                    <li><a href="single-video-youtube.html">Single Video Youtube Embedded Page</a></li>
+                                    <li><a href="single-video-vimeo.html">Single Video Vimeo Embedded Page</a></li>
+                                    <li><a href="upload.html">Upload Video Page</a></li>
+                                    <li><a href="upload-edit.html">Upload Video Edit Page</a></li>
+                                    <li><a href="search.html">Searched Videos Page</a></li>
+                                    <li><a href="channel.html">Single Channel Page</a></li>
+                                    <li><a href="channels.html">Channels Page</a></li>
+                                    <li><a href="single-video-tabs.html">Single Videos Page With Tabs</a></li>
+                                    <li><a href="single-video-playlist.html">Single Videos Page With Playlist</a></li>
+                                    <li><a href="history.html">History Page</a></li>
+                                    <li><a href="categories.html">Browse Categories Page</a></li>
+                                    <li><a href="categories_side_menu.html">Browse Categories Side Menu Page</a></li>
+                                    <li><a href="subscription.html">Subscription Page</a></li>
+                                    <li><a href="login.html">Login Page</a></li>
+                                    <li><a href="signup.html">Signup Page</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-sm-8 col-xs-3">
+                        <form action="http://azyrusthemes.com/circlevideo/search.html" method="post">
+                            <div class="topsearch">
+                                <i class="cv cvicon-cv-cancel topsearch-close"></i>
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="sizing-addon2"><i class="fa fa-search"></i></span>
+                                    <input type="text" class="form-control" placeholder="Search" aria-describedby="sizing-addon2">
+                                    <div class="input-group-btn">
+                                        <button type="button" class="btn btn-default dropdown-toggle" style="display: none;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="cv cvicon-cv-video-file"></i>&nbsp;&nbsp;&nbsp;<span class="caret"></span></button>/
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"><i class="cv cvicon-cv-relevant"></i> Relevant</a></li>
+                                            <li><a href="#"><i class="cv cvicon-cv-calender"></i> Recent</a></li>
+                                            <li><a href="#"><i class="cv cvicon-cv-view-stats"></i> Viewed</a></li>
+                                            <li><a href="#"><i class="cv cvicon-cv-star"></i> Top Rated</a></li>
+                                            <li><a href="#"><i class="cv cvicon-cv-watch-later"></i> Longest</a></li>
+                                        </ul>
+                                    </div><!-- /btn-group -->
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 hidden-xs">
+                        <div class="avatar pull-left">
+                            <img src="images/avatar.png" alt="avatar" />
+                            <span class="status"></span>
+                        </div>
+                        <div class="selectuser pull-left">
+                            <div class="btn-group pull-right dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    Bailey
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="login.html"><i class="las la-sign-out-alt"></i>Log out</a></li>
+                                    <li><a href="update_user_profile.html"><i class="las la-user"></i>Profile</a></li>
+                                     <li><a href="update_user_profile.html"><i class="las la-dollar-sign"></i>Paid Subscriptions</a></li>
+                                     <li><a href="update_user_profile.html"><i class="las la-cog"></i>Settings</a></li>
+                                     
+                                </ul>
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <!--<div class="hidden-xs">
+                    <a href="upload.html">
+                        <div class="upload-button">
+                            <i class="cv cvicon-cv-upload-video"></i>
+                        </div>
+                    </a>
+                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /logo -->
+
+<div class="mobile-menu">
+    <div class="mobile-menu-head">
+        <a href="#" class="mobile-menu-close"></a>
+        <a class="navbar-brand" href="folder.html">
+            <img src="images/logo.svg" alt="Project name" class="logo" />
+            <span>Logo</span>
+        </a>
+        <div class="mobile-menu-btn-color" style="display: none;">
+            <img src="images/icon_bulb_light.png" alt="">
+        </div>
+    </div>
+    <div class="mobile-menu-content">
+        <div class="mobile-menu-user">
+            <div class="mobile-menu-user-img">
+                <img src="images/avatar.png" alt="">
+            </div>
+            <p>Bailey Fry </p>
+            
+        </div>
+        <!--<a href="upload.html" class="btn mobile-menu-upload">
+            <i class="cv cvicon-cv-upload-video"></i>
+            <span>Upload Video</span>
+        </a>-->
+        <div class="mobile-menu-list">
+            <ul>
+                    <ul class="mobile-menu-categories" style="display: none;">
+                        <li class="color-active">
+                            <a href="#">Pages <span class="caret"></span></a>
+                            <ul>
+                                <li><a href="folder.html">Home Page</a></li>
+                                <li><a href="single-video.html">Single Video Page</a></li>
+                                <li><a href="single-video-youtube.html">Single Video Youtube Embedded Page</a></li>
+                                <li><a href="single-video-vimeo.html">Single Video Vimeo Embedded Page</a></li>
+                                <li><a href="upload.html">Upload Video Page</a></li>
+                                <li><a href="upload-edit.html">Upload Video Edit Page</a></li>
+                                <li><a href="search.html">Searched Videos Page</a></li>
+                                <li><a href="channel.html">Single Channel Page</a></li>
+                                <li><a href="channels.html">Channels Page</a></li>
+                                <li><a href="single-video-tabs.html">Single Videos Page With Tabs</a></li>
+                                <li><a href="single-video-playlist.html">Single Videos Page With Playlist</a></li>
+                                <li><a href="history.html">History Page</a></li>
+                                <li><a href="categories.html">Browse Categories Page</a></li>
+                                <li><a href="categories_side_menu.html">Browse Categories Side Menu Page</a></li>
+                                <li><a href="subscription.html">Subscription Page</a></li>
+                                <li><a href="login.html">Login Page</a></li>
+                                <li><a href="signup.html">Signup Page</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="channel.html">Channels</a></li>
+                    </ul>
+                </li>
+                <!--<li>
+                    <a href="#">
+                        <i class="cv cvicon-cv-liked"></i>
+                        <p>Liked Videos</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="cv cvicon-cv-history"></i>
+                        <p>History</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="cv cvicon-cv-purchased"></i>
+                        <p>Purchased Videos</p>
+                    </a>
+                </li>-->
+            </ul>
+        </div>
+        <a style="margin-top: -25%; background-color: #ea2c5a;color: #fff;" href="update_user_profile.html" class="btn mobile-menu-logout"><i class="las la-user" style="font-size: 20px;"></i>   Profile</a>
+         <a style="background-color: #ea2c5a;color: #fff;" href="my-package.html" class="btn mobile-menu-logout"><i class="las la-archive" style="font-size: 20px;"></i>   My Package</a>
+          <a style="background-color: #ea2c5a;color: #fff;" href="pricing.html" class="btn mobile-menu-logout"><i class="las la-euro-sign" style="font-size: 20px;"></i>  Buy Package</a>
+        <a  href="login.html" class="btn mobile-menu-logout">Log out</a>
+        
+    </div>
+</div>
+<div class="col-md-12 col-lg-12 col-xs-12">
+    <div class="container-fluid bg-image">
+<h2 style="text-align:center;color:#fff;">My Packages</h2><br>
+<p class="pricing-desc" style="color: #fff;">Your Package Activated is <a href="#pro" style="color:#3BABFE; ">Pro Package</a></p>
+<div class="columns" id="basic">
+  <ul class="price">
+    <li class="header">Basic</li>
+    <li class="grey">$ 9.99 / year</li>
+    <li>10GB Storage</li>
+    <li>10 Emails</li>
+    <li>10 Domains</li>
+    <li>1GB Bandwidth</li>
+   
+  </ul>
+</div>
+<div class="columns" id="pro">
+  <ul class="price">
+    <li class="header" style="background-color:#ea2c5a">Pro</li>
+    <li class="grey" style="background-color: #3BABFE;color: #fff;">Active Package</li>
+    <li class="grey">$ 24.99 / year</li>
+    <li>25GB Storage</li>
+    <li>25 Emails</li>
+    <li>25 Domains</li>
+    <li>2GB Bandwidth</li>
+    
+  </ul>
+</div>
+
+<div class="columns" id="premium">
+  <ul class="price">
+    <li class="header">Premium</li>
+    <li class="grey">$ 49.99 / year</li>
+    <li>50GB Storage</li>
+    <li>50 Emails</li>
+    <li>50 Domains</li>
+    <li>5GB Bandwidth</li>	
+  </ul>
+</div>
+</div>
+</div>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
